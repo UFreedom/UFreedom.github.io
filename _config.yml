@@ -8,6 +8,7 @@
 # Site settings
 title: I m UFreedom
 name: SUNMeng
+nick_name: UFreedom
 email: sunfreedomsun@gmail.com
 location: Beijing, China
 company:
@@ -88,3 +89,5 @@ analytics :
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Java, C, C++, Design Patterns]
 skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+cicle_avatar: 'http://oqlyc0k43.bkt.clouddn.com/2A4A3FAE625F5B2F44ADBD867C9FC9C7.jpg'
+about_me_des: 'A guy who love wife , love coding , love playing fps game'

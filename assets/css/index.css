@@ -1,8 +1,40 @@
 /** Only for index.html **/
 
+.about ul {
+    margin-left: 30px;
+}
+
+.about p {
+    text-indent: 30px;
+}
+
+
+.about .btn {
+    margin-bottom: 5px;
+}
+
+.nick_name {
+   color: #fff;
+   font-size: 20px;
+}
+
+.des_me {
+   margin-top: 10px;
+   color: #727487;
+   font-size: 10px;
+}
+
+/** Only for about.html **/
+
+
+.jumbotron {
+    background: #364060;
+}
+
+
 .site-header{
     color: #fff;
-    background: #4183c4;
+    background: #364060;
 }
 
 .site-header #site-header-brand {
@@ -10,16 +42,13 @@
 }
 
 .site-header .site-header-nav-item {
-    color: #9acfea;
+    color: #fff;
 }
 
 .site-header a:hover {
     color: #fff;
 }
 
-.jumbotron {
-    background: #4183c4;
-}
 
 .site-header.site-header-nav-scrolled a {
     color: #2e2e2e;
