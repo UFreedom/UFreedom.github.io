@@ -6,7 +6,7 @@
 }
 
 .post-directory dt, dd{
-    border-left: 5px solid #666;
+    border-left: 5px solid #4183c4;
     cursor: pointer;
     padding: 2px 5px 2px 15px;
 }
@@ -24,7 +24,7 @@
 
 .post-directory dt:hover a, dd:hover a {
     font-weight: bold;
-    color: #fff;
+    color: #4183c4;
 }
 
 .col-md-4 {
