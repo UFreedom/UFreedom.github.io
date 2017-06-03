@@ -1,8 +1,8 @@
 #posts-list {
     list-style-type: none;
     margin: 20px 0 20px 120px;
-    padding-left: 30px;
-    border-left: 8px solid #4183c4;
+    padding-left: 32px;
+    border-left: 4px solid #4183c4;
 }
 
 #posts-list li {
@@ -21,7 +21,7 @@
     width: 20px;
     height: 20px;
     background: #fff;
-    border: 6px solid #4183c4;
+    border: 4.5px solid #4183c4;
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -41,7 +41,7 @@
 }
 
 .posts-list-name {
-    font-size: 25px;
+    font-size: 14px;
     text-decoration: none;
     opacity: 0.8;
 }
