@@ -1,6 +1,6 @@
 <h3 style="margin-left: 20px;" >Post Directory</h3>
 <div id="post-directory-module">
-<section class="post-directory">
+<section class="post-directory" id="post-directory">
     <!-- Links that trigger the jumping -->
     <!-- Added by javascript below -->
     <dl></dl>
@@ -42,6 +42,7 @@
                 });
             } else {                                   // apply position: static
                 $('#post-directory-module').css({      // if you scroll above it
+                    top: '0px',
                     position: 'inherit',
                     width: 'inherit'
                 });
