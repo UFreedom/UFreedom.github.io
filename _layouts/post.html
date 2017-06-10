@@ -13,8 +13,10 @@ css: ['sidebar-post-dir.css','post.css']
 
             {{ content }}
 
+            
+            {% include gentie-comments.html %}
             <!-- Comments -->
-            {% include disqus-comments.html %}
+        <!--   {% include disqus-comments.html %}-->
         </div>
         <div class="col-md-3">
         </div>
@@ -25,8 +27,10 @@ css: ['sidebar-post-dir.css','post.css']
 
             {{ content }}
 
+            {% include gentie-comments.html %}
+
             <!-- Comments -->
-            {% include disqus-comments.html %}
+            <!--   {% include disqus-comments.html %}-->
         </div>
 
         <div class="col-md-3">
