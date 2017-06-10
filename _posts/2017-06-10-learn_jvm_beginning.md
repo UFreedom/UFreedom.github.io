@@ -23,6 +23,7 @@ Java 以虚拟机为中介，横行在各大操作系统平台，比如 Windows,
 作为 Android 开发者来说，了解虚拟机非常有必要，特别是类加载机制和垃圾回收机制。现在市面上已经有很多分享虚拟机的书籍和资料，我将跟随前辈的脚步，一窥虚拟机的世界。
 
 参考书籍：
+
 《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》，周志明
 
 《Java 虚拟机规范,Java SE 8 版》，Tim Lindholm, Frank Yellin, Gilad Bracha, Alex Buckley
