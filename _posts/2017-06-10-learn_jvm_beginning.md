@@ -11,9 +11,9 @@ tags: [JVM]
 Java 之所以能做到跨平台执行，主要的功劳归于 Java 虚拟机:
 
 <div align="center">
-<img src="/attachments/images/learn_jvm/learn_jvm_chapter_1.png" />
+<img src="/attachments/images/learn_jvm/learn_jvm_chapter_1.png"  width="350"  height="282"/>
  </div>
-
+</br>
 
 Java 以虚拟机为中介，横行在各大操作系统平台，比如 Windows, Linux, Android等等，Java 虚拟机可以看做一台抽象的计算机，如同真实的计算机一样，它有自己的指令集，以及各种内存区域。
 
