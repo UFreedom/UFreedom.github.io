@@ -126,9 +126,10 @@ interface IInAppBillingService {
       - 比较考验代码设计功底
       - 设计不当会影响功能稳定性
       - 需要自己处理一些异常的情况
-  - [android-inapp-billing-v3][2]] ： 一个开源的库，也是封装 Google AIDL，对外提供的 API  能满足业务需求
+  - [android-inapp-billing-v3][2] ： 一个开源的库，也是封装 Google AIDL，对外提供的 API  能满足业务需求
   
   - [Google Pay Billing Library][3]: Google 官方出的支付库，2017年6月才发布第一版。目前版本是 1.1
+  
       ○ 提供良好的 API
       ○ 稳定性较好
       ○ 也是目前 Google 强烈建议使用的库
@@ -182,6 +183,9 @@ mBillingClient.startConnection(new BillingClientStateListener() {
 
 **3.查询商品信息**
 
+{% highlight java %}
+
+
 List skuList = new ArrayList<> ();
 skuList.add("premium_upgrade");
 skuList.add("gas");
@@ -194,6 +198,8 @@ mBillingClient.querySkuDetailsAsync(params.build(),
             // Process the result.
         }
     });
+
+{% endhighlight %}
 
 
 <div align="center">
@@ -266,7 +272,7 @@ void onPurchasesUpdated(@BillingResponse int responseCode, List purchases) {
 2. Server Callback 需要保证 Response 成功，否则会出现丢单情况
 
 
-##五.Google Pay 沙盒测试
+## 五.Google Pay 沙盒测试
 
 测试支付的时候，需要先在 Google Play进行应用分发。这样参与测试的用户就可以用 Google Play中下载应用了。在实际调试的过程中，我们可能是直接将APK分发给测试，这个前提是必须在 Google Play中发布 Alpha 或者 Beta 版本，且版本号不能低于 Google Play 中的版本。
 
