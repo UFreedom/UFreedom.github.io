@@ -7,7 +7,7 @@ tags: [Android]
 ---
 
 
-## 一. 应用内商品（内购）
+### 一. 应用内商品（内购）
 
 1. 应用内商品有两种类型：
 
@@ -65,7 +65,7 @@ tags: [Android]
 一个 APP 可以拥有多个内个商品，只要 Product ID 不一样就行。Google Play Consol 后台提供定价模板，可以方便配置多个相同价格的应用内商品
 
 
-## 二. Google Billing  Library
+### 二. Google Billing  Library
 
 Google Pay SDK 使用 IInAppBillingService.aidl  进行通信：，[IInAppBillingService.aidl][1] 定义了和 Google Pay 进行通信的接口:
 
@@ -135,7 +135,7 @@ interface IInAppBillingService {
       ○ 也是目前 Google 强烈建议使用的库
 
 
-## 三. 如何接入 Google Pay Billing Library
+### 三. 如何接入 Google Pay Billing Library
 
 
 一般接入流程：
@@ -263,7 +263,7 @@ void onPurchasesUpdated(@BillingResponse int responseCode, List purchases) {
       - Server 根据购买信息跟 Google Play Server 进行对账
       - 返回 check 结果
 
-## 四. Google Play Billing Library 接入需要注意的问题
+### 四. Google Play Billing Library 接入需要注意的问题
 
 
 1. 一次性商品购买成功后，需要调用 consumeAsync(purchaseToken,onConsumeListener) 进行商品消耗，
@@ -272,7 +272,7 @@ void onPurchasesUpdated(@BillingResponse int responseCode, List purchases) {
 2. Server Callback 需要保证 Response 成功，否则会出现丢单情况
 
 
-## 五.Google Pay 沙盒测试
+### 五.Google Pay 沙盒测试
 
 测试支付的时候，需要先在 Google Play进行应用分发。这样参与测试的用户就可以用 Google Play中下载应用了。在实际调试的过程中，我们可能是直接将APK分发给测试，这个前提是必须在 Google Play中发布 Alpha 或者 Beta 版本，且版本号不能低于 Google Play 中的版本。
 
